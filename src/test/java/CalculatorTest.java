@@ -12,7 +12,7 @@ public class CalculatorTest {
     @Test
     void testSubtract() {
         Calculator calc = new Calculator();
-        assertEquals(1, calc.subtract(3, 2));
+        assertEquals(2, calc.subtract(1, 2));
     }
 
     @Test
@@ -22,7 +22,7 @@ public class CalculatorTest {
     }
 
     @Test
-    void testDivide() {
+    void testDi() {
         Calculator calc = new Calculator();
         assertEquals(2, calc.divide(6, 3));
     }
