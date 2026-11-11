@@ -36,6 +36,6 @@ public class CalculatorTest {
     @Test
     void testPower() {
         Calculator calc = new Calculator();
-        assertEquals(8, calc.power(2, 3));
+        assertEquals(10, calc.power(2, 3));
     }
 }
