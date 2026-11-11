@@ -6,4 +6,12 @@ public class Calculator {
         if (b == 0) throw new IllegalArgumentException("Cannot divide by zero");
         return a / b;
     }
+
+    public int power(int base, int exponent) {
+        int result = 1;
+        for (int i = 0; i < exponent; i++) {
+            result *= base;
+        }
+        return result;
+    }
 }
